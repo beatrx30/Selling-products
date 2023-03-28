@@ -131,7 +131,7 @@ blockquote{
 }
 .top-control{
     float:right;
-    padding:15px 0;
+    padding:3px 0;
 }
 .homepage-2.gold .top-control{
     float:right;
@@ -571,7 +571,7 @@ blockquote{
     float:right;
 }
 .slide-offers-left .slide-offers-title span{
-    color:#66cef6 ;
+    color:#1732cf;
 }
 #sect-1 .slide-offers-left .slide-offers-title span, #sect-2 .slide-offers-left .slide-offers-title span{
     color:#fff ;
@@ -634,7 +634,7 @@ blockquote{
     line-height:20px;
     padding:0 15px;
     text-transform: uppercase;
-    
+    font-family:sans-serif;
 }
 .product-name a{
     color:#2b2a2f;   
@@ -676,9 +676,35 @@ blockquote{
 .home-content{
     
 }
+.gt{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom:2px;
+    font-size:50px;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    
+}
+.end{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 20px;
+}
+
+.introduce{
+    padding: 40px 50px;
+    border:3px dashed #a4e9f0;
+    border-style: outset;
+    text-align:justify;
+    /* font-family:verdana; */
+    font-family: 'Nunito', sans-serif;
+    font-style:italic;
+    
+}
 .cat-offers{
     padding-top: 65px;
     padding-bottom: 40px;
+    /*border-bottom:1px dashed #d7d7d7;*/
     border-bottom:1px dashed #d7d7d7;
 }
 .cat-sec-1, .cat-sec-2, .cat-sec-3{
@@ -1059,8 +1085,9 @@ blockquote{
 	opacity:10;
 }
 .product-fade-wrap img{
-	width:100%;
-	height:auto;
+	width:250px;
+	height:300px;
+    border: 2px solid #FFDEAD;
 }
 .product-fade-ct{
 	text-align:left;
@@ -1183,11 +1210,17 @@ blockquote{
 }
 #brand-carousel .item{
     text-align: center;
+    /* height: 200px;
+    width: 150px; */
+    
+    padding: 40px 30px;
 }
 
 #brand-carousel .item img{
     display:inline-block;
-    padding:0 2px;
+    padding:0px 20px;
+    margin: 0px 20px;
+    border: 2px dotted #4EDEDE;
 }
 .brands-inner{
     border-bottom:1px dashed #d7d7d7;
@@ -2682,7 +2715,7 @@ blockquote{
     color:#fff;
 }
 .text-widget a{
-    color:#808080;
+    color:#dd4b4b;
 }
 .text-widget p{
     line-height: 20px;
@@ -2693,7 +2726,7 @@ blockquote{
     color: #60686f;
 }
 .wid-title{
-    color:#808080;
+    color:#67dfe3;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;

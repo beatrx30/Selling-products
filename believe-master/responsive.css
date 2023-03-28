@@ -246,9 +246,10 @@
         float:left;
         min-height:300px;
     }
-    .footer-widget .col-md-2, .footer-widget .col-md-3{
+    fa fa-phone-square{
         width:50%;
         float:left;
+        
     }
     .align-left .col-md-4{
         width:35%;
