@@ -17,7 +17,7 @@ html,body{
     color:#2b2a2f;
 }
 a{
-    color:#66cef6;
+    color:#2e92ba;
     text-decoration:none;
     transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -690,6 +690,67 @@ blockquote{
     font-family: 'Nunito', sans-serif;
     padding-bottom: 20px;
 }
+.intro{
+    padding: 40px 50px;
+    border:3px dashed #bef481d5;
+    border-style: outset;
+    text-align:justify;
+    font-size: 18px;
+    /* font-family:verdana; */
+    font-family: 'Nunito', sans-serif;
+}
+.dichvu{
+    display: block;
+    padding: 40px 50px;
+    border:3px dashed #a4e9f0;
+    border-style: outset;   
+    width: 1200px;
+    height: 500px;
+}
+.dichvu1{
+    margin: 100px 300px;
+    width: 300px;
+    height: 150px;
+    /* border: 3px solid #a4e9f0; */
+    margin: 30px 20px;
+    text-align: center;
+    float: left;
+    font-family: 'Nunito', sans-serif;
+}
+.tintuc{
+    width: 1200px;
+    height: auto;
+    border:3px outset #a4e9f0;
+    display:block;
+    /* margin: 30px 20px; */
+}
+.tintuc1{
+    width: 1160px;
+    height: 250px;
+    margin: 20px 20px;
+    text-align: justify;
+    /* border-bottom:2px dotted #eee960; */
+    /* float: left; */
+}
+.tintuc hr{
+    border: 0;height: 2px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.tintuc1 img{
+    width: 240px;
+    height: 180px;
+    margin: 20px 20px;
+}
+.imagedichvu{
+    border-radius: 10px;
+    border: 1px solid#1732cf;
+    width: 180px;
+    padding: 5px;
+    height: 120px;
+}
+.imagedichvu :hover{
+    border: 10px dashed #000000;
+}
+    
 
 .introduce{
     padding: 40px 50px;
@@ -4116,6 +4177,13 @@ blockquote{
     
     
 }
+
+body{
+    background-color: rgba(188, 227, 241, 0.215);
+}
+#footer{
+    margin-top: 30px;
+}
 .mega-sub2{
     float:left;
     border-right:1px dashed #d7d7d7;
@@ -4128,7 +4196,21 @@ blockquote{
     padding:5px 30px 30px 20px;
     
 }
-
+.mega-sub3{
+    float:none;
+    
+    border-right:2px solid #d7d7d7;
+    margin-bottom:20px;
+    margin-top:20px;
+    max-width: auto;
+    display: block;
+    width: auto;
+    height:auto;
+    /* width: 100%; */
+    padding:5px 30px 30px 20px;
+    
+    
+}
 #cat-nav .mega-sub ul li a{
     color: #2b2a2f;
     font-size: 16px;
