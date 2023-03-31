@@ -702,7 +702,7 @@ blockquote{
 .dichvu{
     display: block;
     padding: 40px 50px;
-    border:3px dashed #a4e9f0;
+    border:3px dashed #bef481d5;
     border-style: outset;   
     width: 1200px;
     height: 500px;
@@ -720,7 +720,7 @@ blockquote{
 .tintuc{
     width: 1200px;
     height: auto;
-    border:3px outset #a4e9f0;
+    border:3px outset #bef481d5;
     display:block;
     /* margin: 30px 20px; */
 }
@@ -731,6 +731,14 @@ blockquote{
     text-align: justify;
     /* border-bottom:2px dotted #eee960; */
     /* float: left; */
+}
+.tintucimg{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 200;
+  margin-top: 20px;
 }
 .tintuc hr{
     border: 0;height: 2px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
